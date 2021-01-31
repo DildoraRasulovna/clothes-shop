@@ -1,14 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>clothes shop</title>
-</head>
+    <link
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/imagehover.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark cyan darken-2 ">
+      <a class="navbar-brand header" href="#">Clothe</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="index.html"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="contact.html"
+              >Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="login.html">Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="register.html"
+              >Register
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="about.html"
+              >Product Track
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline my-1">
+          <div class="md-form form-sm my-0">
+            <input
+              class="form-control form-control-sm mr-sm-2 mb-0"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </div>
+          <button class="btn btn-outline-white btn-sm my-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- CARD -->
+    <div class="row no-gutters">
+      <div class="col-md-6 col-sm-6 no-gutters">
+      <!-- Card -->
+<div class="card">
+ <!-- Card image -->
+  <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+  <button type="button" class="btn btn-dark centered btn-lg" style=" position: absolute;
+  top: 300px;
+  left: 650px;
+  transform: translate(-50%, -50%);">For Her</button>
+</div>
+<!-- Card -->
+      </div>
+      <div class=" col-md-6 col-sm-12 no-gutters">
+          <!-- Card -->
+<div class="card">
+  <!-- Card image -->
+   <img class="card-img-top " src="images/slide2.jpg" alt="Card image cap">
+   <h2 type="button" class=" header" style=" position: absolute;
+  top: 210px;
+  left: 55px;
+  transform: translate(-50%, -50%);">Clothe is Always With you</h2>
+   <button type="button" class="btn btn-dark centered btn-lg" style=" position: absolute;
+   top: 300px;
+   left: 100px;
+   transform: translate(-50%, -50%);">For Him</button>
+ </div>
+ <!-- Card -->
+      </div>
+      
+    
+    <div class="row no-gutters">
+      <div class="col-md-3 col-sm-12">
+        <div
+                                class="heading  mt-4 category text-center border-primary border-bottom border-5 rounded-pill ">
+                                <h1>
+                                    Categories</h1>
+                            </div>
+                            <h3 class="text-primary font-weight-bolder text-center mt-4">Brands</h3>
+                            <div class=" d-flex flex-wrap flex-column justify-content-start text-white">
+                               <button type="button" class="btn btn-link font-weight-bold text-dark brands">All</button></li>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Blouse</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Long dress</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Short dress</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Shoes</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Trainers</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Bag</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Suit & Pants</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Suit & Skirt</button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands"> Sports Suit </button>
+                                <button type="button" class="btn btn-link font-weight-bold text-dark brands">Jumper</button>
+                            </div>
+                            <h3 class="text-primary font-weight-bolder text-center mt-4 ml-2">Prices</h3>
+                            <div class="container d-flex flex-wrap flex-column justify-content-start  text-dark">
+                                <button
+                                    type="button"
+                                    class="btn btn-link font-weight-bold text-dark lowToHigh">Low to High</button>
+                                <button
+                                    type="button"
+                                    class="btn btn-link font-weight-bold text-dark highToLow">High to Low</button>
+                            </div>
+                            <!-- Card -->
+<div class="card card-image mr-5 ml-5"
+style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
 
-</body>
+<!-- Content -->
+<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+  <div>
+    <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Marketing</h5>
+    <h3 class="card-title pt-2"><strong>About our sales</strong></h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+      .</p>
+    <a class="btn btn-pink"><i class="fas fa-clone left"></i> View project</a>
+  </div>
+</div>
 
+</div>
+<!-- Card -->
+<!-- Card -->
+<div class="card testimonial-card ml-5 mr-5 mt-4">
+
+  <!-- Background color -->
+  <div class="card-up indigo darken-2"></div>
+
+  <!-- Avatar -->
+  <div class="avatar mx-auto white">
+    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
+      alt="woman avatar">
+  </div>
+
+  <!-- Content -->
+  <div class="card-body">
+    <!-- Name -->
+    <h4 class="card-title">Anna Doe</h4>
+    <hr>
+    <!-- Quotation -->
+    <p><i class="fas fa-quote-left"></i> Our Designer
+    </p>
+  </div>
+
+</div>
+<!-- Card -->
+ <!-- Card -->
+ <div class="card m-2 text-center mb-4  ml-5 mr-5 mt-4">
+
+  <!-- Card image -->
+  <div class="view overlay">
+      <img class="card-img-top" src="images/slide3.jpg" alt="Card image cap">
+      <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+      </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body ">
+
+      <!-- Title -->
+      <h4 class="card-title">We offer you more</h4>
+      <!-- Button -->
+      <a href="#" class="btn purple-gradient">Shop now</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <div
+          style="align-items: stretch"
+          class="row no-gutters"
+          id="products"
+        ></div>
+      </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3" style="width: 100%;">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i
+                  class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i
+                  class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i
+                  class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!--Pinterest-->
+              <a class="pin-ic">
+                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/index.js"></script>
 </html>
